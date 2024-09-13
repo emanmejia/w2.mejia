@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Second Page</title>
+  <title>Budget Travel Page by Emmanuel Mejia</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <a href="index.html">Home Page</a> |
-  <a href="index.html#UnorderedList">Home Page - Unordered List</a>
-  <h2>We need content for our second page</h2>
+  <a href="index.html">Return Home</a> |
+  <a href="index.html#UnorderedList"> Travel Destinations List</a>
+  <h2>Ready to book your flight?
+    <br>Your destination awaits you below.</br>
+  </h2>
 
 
   <form>
@@ -19,13 +20,26 @@
     <table>
       <tr>
         <td valign="top">
-          Lunch:<br>
-          <select name="food">
-            <option value="pizza">Pizza</option>
-            <option value="burger">Burger</option>
-            <option value="chicken">Chicken</option>
-            <option value="salad">Salad</option>
+          Top Destinations:<br>
+          <select name="City">
+            <option value="MEX">Mexico City</option>
+            <option value="CUN">Cancun</option>
+            <option value="GDL">Guadalajara</option>
+            <option value="PVR">Puerto Vallarta</option>
+            <option value="SJD">Los Cabos</option>
+            <option value="DGO">Durango</option>
+            <option value="TIJ">Tijuana</option>
+            <option value="PBC">Puebla</option>
+            <option value="QRO">Queretaro</option>
+            <option value="TRC">Torreon</option>
+            <option value="OAX">Oaxaca</option>
           </select>
+        </td>
+        <td>
+          Seat Class:<br>
+            <input type="radio" name="seatClass" value="firstClass" checked>First Class<br>
+            <input type="radio" name="seatClass" value="busClass">Business Class<br>
+            <input type="radio" name="seatClass" value="economyClass">Economy Class
         </td>
         <td>
           Payment:<br>
@@ -35,8 +49,8 @@
         </td>
         <td valign="top">
             Other:<br>
-            <input type="checkbox" name="eatin" value="Bike">I will eat in<br>
-            <input type="checkbox" name="member" value="Car">I have a membership 
+            <input type="checkbox" name="member" value="member">I am a rewards member.<br>
+            <input type="checkbox" name="member" value="nonMember">Check out as guest.
         </td>          
       </tr>
     </table>

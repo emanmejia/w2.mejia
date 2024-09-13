@@ -12,6 +12,11 @@ h1, h2 {
   color: red;
 }
 
+h3 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: green;
+}
+
 /* Link styles */
 a:link {
   color: red;
@@ -23,8 +28,8 @@ a:visited {
 
 /* Input submit button styles */
 input[type="submit"] {
-  background-color: #333;
-  color: white;
+  background-color: green;
+  color: whitesmoke;
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -65,5 +70,5 @@ table tr:nth-child(even) {
 }
 
 table tr:hover {
-  background-color: lightblue;
+  background-color: rgb(78, 180, 208);
 }
